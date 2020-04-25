@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* 
+/*
     Style for my website
 
     Cheng Nie
@@ -41,10 +41,12 @@ img {
 }
 
 
-/* 
+/*
     table of content + sidebar
 */
 
+/* get alternate shading background in table */
+tr:nth-child(even) {background-color: #f2f2f2;}
 
 table {
   font-size: 20pt;
@@ -54,6 +56,10 @@ table#contentPlusSidebar {
   width: 1200px;
   margin-top: 10px;
   margin-bottom: -2px;
+}
+/* For teaching evaluation */
+table#evals {
+  font-size: 15pt;
 }
 
 table#contentPlusSidebar td {
@@ -68,14 +74,14 @@ table#contentPlusSidebar td#content {
 }
 
 td#content div#contentText {
-  line-height: 1.5; 
-  padding-right: 30px; 
+  line-height: 1.5;
+  padding-right: 30px;
   font-size: 15pt;
 }
 
 table#contentPlusSidebar td#sidebar {
   color: #222;
-  width: 256px; 
+  width: 256px;
   position: relative;
   font-size: 15px;
   padding-left: 8px;
@@ -91,7 +97,7 @@ div.sidebarBio {
 }
 
 div.sidebarHeading
-{ 
+{
   font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
