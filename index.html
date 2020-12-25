@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 
+<link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -66,6 +67,29 @@
                     M.E., Chinese Academy of Sciences, China, 2010<br>
                     B.S., Huazhong University of Science and Technology, China, 2007<br>
                 </p>
+                <h2>What am I working on?</h2>
+                  <video
+                    id="my-video"
+                    class="video-js"
+                    controls autoplay
+                    preload="auto"
+                    width="640"
+                    height="264"
+                    poster="MY_VIDEO_POSTER.jpg"
+                    data-setup="{}"
+                  >
+                    <source src="http://142.47.221.84:8080/hls/justtest.m3u8" type="application/x-mpegURL" />
+                    <p class="vjs-no-js">
+                      To view this video please enable JavaScript, and consider upgrading to a
+                      web browser that
+                      <a href="https://videojs.com/html5-video-support/" target="_blank"
+                        >supports HTML5 video</a
+                      >
+                    </p>
+                  </video>
+
+                  <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
+
                 </div>
             </td>
 
